@@ -1,0 +1,56 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package animal;
+
+/**
+ *
+ * @author Guntur Joko
+ */
+public class Animal {
+    protected int Legs;
+    
+   public Animal (){
+     
+    } 
+
+public void Animal(int Legs){
+    this.Legs=Legs;
+    System.out.println("Legs Animal is ...");
+      
+}
+ 
+public void walk(){
+    System.out.println("animal is walk");
+}
+    
+public void eat(){
+    System.out.println("animal is eating");
+}
+
+    
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+       Animal Hewan = new Animal();
+       Spider LabaLaba = new Spider();
+       Cat Kucing = new Cat();
+       Fish ikan = new Fish();
+       
+       Hewan.walk();
+       Hewan.eat();    
+       LabaLaba.Spider();
+       LabaLaba.eat();
+       Kucing.Play();
+       Kucing.eat();   
+       ikan.Play();
+       ikan.walk();
+       ikan.eat();
+        // TODO code application logic here
+    }
+    
+}
